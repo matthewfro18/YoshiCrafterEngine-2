@@ -2,8 +2,10 @@
   "dependencies": [
     {
       "name": "lime",
-      "type": "haxelib",
-      "version": "6.2.0"
+      "type": "git",
+      "dir": null,
+      "ref": "develop",
+      "url": "https://github.com/matthewfro1818/lime"
     },
     {
       "name": "hscript-improved",
@@ -15,7 +17,7 @@
     {
       "name": "openfl",
       "type": "haxelib",
-      "version": "7.1.2"
+      "version": "9.2.2"
     },
     {
       "name": "away3d",
@@ -127,11 +129,25 @@
       "url": "https://github.com/Yoshman29-FunkinArchive/flixel"
     },
     {
+      "name": "discord_rpc_yce",
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/ThatOneIdiotXav/discord_rpc_yce"
+    },
+    {
       "name": "spinehaxe",
       "type": "git",
       "dir": null,
       "ref": "master",
       "url": "https://github.com/bendmorris/spinehaxe"
+    },
+    {
+      "name": "lime",
+      "type": "git",
+      "dir": null,
+      "ref": "develop",
+      "url": "https://github.com/matthewfro1818/lime"
     }
   ]
 }

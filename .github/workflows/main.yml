@@ -1,5 +1,9 @@
 name: Main
-on: workflow_dispatch
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  repository_dispatch:
 jobs:
   Windows:
     runs-on: windows-latest
@@ -133,7 +137,7 @@ jobs:
           cd export/release/ios/build/*-iphoneos
           mkdir Payload
           mv *.app Payload
-          zip -r CodenameEngine.ipa Payload
+          zip -r YoshiCrafterEngine.ipa Payload
       - name: Upload Artifact
         if: ${{ success() }}
         uses: actions/upload-artifact@main

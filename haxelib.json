@@ -1,0 +1,19 @@
+{
+  "name": "hxcpp",
+
+  "defines": [
+    {
+      "name":"HXCPP_M32",
+      "type":"bool",
+      "description":"Sets target arc to Mac OS X 32 bit"
+    },
+    {
+      "name":"IPHONE_VER",
+      "type":"string",
+      "description":"Sets the version of target iOS via passing parameter to 'xcrun --sdk iphoneosX.X'. e.g.: `-D IPHONE_VER 9.1`."
+    }
+  ],
+
+  "url": "http://gamehaxe.com/",
+  "license": "BSD",
+}

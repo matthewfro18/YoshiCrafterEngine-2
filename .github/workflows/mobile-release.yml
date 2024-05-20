@@ -1,5 +1,9 @@
 name: Mobile + Release
-on: workflow_dispatch
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  repository_dispatch:
 jobs:
   Android:
     runs-on: ubuntu-20.04
